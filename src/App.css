@@ -28,23 +28,25 @@ body {
  * Header
  */
 
-.nav-masthead .navbar-nav{
+.nav-masthead .navbar-nav {
   width: 100%;
+  padding-top: .25rem;
 }
 
-.nav-masthead .nav-item:not(:last-child) {
-  margin-right: 1.25rem;
+.nav-masthead .nav-item:not(:first-child) {
+  margin-left: 1.25rem;
 }
 
-.nav-masthead .nav-link {
+.nav-masthead .navbar-nav .nav-link {
   font-weight: 600;
   color: grey;
   text-shadow: grey;
+  text-align: right;
   background-color: transparent;
 }
 
-.nav-masthead .nav-link:hover,
-.nav-masthead .active {
+.nav-masthead .navbar-nav .nav-link:hover,
+.nav-masthead .navbar-nav .nav-link.active {
   color: #002171;
   text-shadow: #002171;
 }
